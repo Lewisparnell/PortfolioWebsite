@@ -1,0 +1,64 @@
+.container {
+    width: 100%;
+    margin: auto;
+}
+header {
+    height: 100px;
+    background-size: cover;
+    padding: 0px;
+    text-align: left;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav {
+    background-color: #8d8741;
+}
+nav ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+nav ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+}
+nav ul li a {
+    display: inline-block;
+    width: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 8px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    border-top: 1px solid #ccc;
+    margin: 20px 10px 10px 0;
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    font-style: bold;
+}
+ul.facilities {
+    font-size: 20px;
+}
+.content {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul {
+    font-size: 20px;
+}
+.textWrap {
+    float: right;
+    margin: 5px;
+}
+li > p {
+    margin-left: 10;
+}
+.map{
+    display: none;
+}
