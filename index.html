@@ -1,22 +1,283 @@
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Lewis Parnell</title>
-<link rel="stylesheet" type="text/css" href="styles/main.css">
-<link rel="stylesheet" media="only screen and (min-width:720px)" href="styles/desktop.css">
-<link rel="icon" href="images/logo.png">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=M44lzPylqQ" 
+    color="#000000">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
+
 <body>
-<div class="container">
-<header>
-    <h1 id="Heading">Lewis Parnell</h1> 
-</header>
-<p>
-I thrive in a fast-pace working environment, overcoming daily challenges through problem-solving and being self-motivated. I manage large workloads through prioritisation and using my initiative to complete tasks in efficient ways. Strong desire to continue my career path within the tech industry. I can offer the company my vast technological knowledge and apply my experience to the daily tasks required to be fulfilled in this role.
-In my free time I enjoying staying up-to-date on the latest tech news by reading several different news outlets, and watching reviews and informative videos on YouTube. I also have a passion for learning new skills and have been spending my down time learning how to program and have been setting myself several small tasks each week to work on.
-</p>
-<div class="content">
-<script src="js/main.js"> </script>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header>
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-content">
+            <h1>Lewis Parnell</h1>
+            <h2></h2>
+            <a href="#" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        I thrive in a fast-paced working environment, overcoming daily challenges through problem-solving and being self-motivated. I manage large workloads through prioritisation and using my initiative to complete tasks in efficient ways. Strong desire to continue my career path within the tech industry. I can offer the company my vast technological knowledge and apply my experience to the daily tasks required to be fulfilled in this role.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="October 2021 – Current">
+                <h3>Three</h3>
+                <h4>Sales Advisor</h4>
+                <p>
+                    • Maintained sales floor and processed sales at high footfall retail store. 
+                    • Used several pieces of software to help with daily tasks, such as Microsoft sheets, Microsoft Teams and various retail training based apps.
+                    • Took charge of opening and closing procedures, POS systems, stock control and visual merchandising.
+                    • Regularly exceeded personal sales targets by 10%+ through attentive customer service and product recommendations.
+                    • Provided training to new team members, ensuring they were fully compliant with company policy and expected levels of service.
+                    • Store ambassador for Xiaomi and Apple. Ensured that all staff members were up-to-date on their training for the devices we stocked and were aware of all deals and offers available.
+                </p>
+            </div>
+
+            <div data-date="May 2017 – September 2021">
+                <h3>Primark</h3>
+                <h4>Customer Advisor</h4>
+                <p>
+                    • Maintaining excellent visual standards within the store.                                      
+                    • Unpacking and organising all new stock deliveries.
+                    • Dealing with customer complaints in a professional and courteous manner.
+                </p>
+            </div>
+            <!--
+            <div data-date="September 2015 – September 2016">
+                <h3>Employer Name</h3>
+                <h4>Job Title</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                </p>
+            </div>
+        -->
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>West Nottinghamshire College</h3>
+            <span class="education-date">Sept 2013 - June 2015</span>
+            <h4>Level 3 Software Development - MERIT</h4>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+            </p>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Manor Academy</h3>
+            <span class="education-date">Sept 2012 - June 2013</span>
+            <h4>GCSE's</h4>
+            <ul>
+                <li>
+                    Mathematics - C
+                </li>
+                <li>
+                    English - C
+                </li>
+                <li>
+                    Business - C
+                </li>
+                <li>
+                    IT - C
+                </li>
+                <li>
+                    Science - MERIT
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/sheets.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Sales Targets Tracker</h3>
+                        <p>
+                           A self refreshing tracker used to manager daily and monthly sales targets. This sheet will automatically clear daily and monthly. Easily editable to change targets and users on the sheet. It will compile the data from the last three months to give you an average of performance, this is incredibly useful for management to monitor advisors targets and help advisors monitor their own sales.
+                        </p>
+                        <a href="https://docs.google.com/spreadsheets/d/1WSIzoiRteX82DdlcZ4LXgZxn_g5rw0jLfph7pyfMQQk/edit?usp=sharing">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/sheets.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>WIP Project (Finance Tracker)</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Google Sheets</li>
+            <li>Microsoft Excel</li>
+            <li>Windows</li>
+            <li>macOS</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>Sales</li>
+            <li>Adaptable</li>
+            <li>HMTL</li>
+            <li>CSS</li>
+            <li>Customer Service</li>
+            <li>Communication</li>
+            <li>Management</li>
+            <li>Computer Literate</li>
+            <li>Strong Numeracy Skills</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/f/xjvdnvve">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; <span id="current-year">2023</span> LEWIS PARNELL
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/Lewisparnell" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/users/21268830/lewisp" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/lewis-parnell-bb6591b8/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/lewis.parnell.7/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/lewisparnell4" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCFVB7MnAthEKdWi9qx2WL5A" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
 </body>
+
 </html>
